@@ -138,7 +138,7 @@ void main() {
         row = row - 1;
 
         if (board[row][col] == 1) {
-          printf("\n\n\t\t\t¡TOCADO!\n\tLos barcos estan representados con █."
+          printf("\n\n\t\t\t¡TOCADO!"//\n\tLos barcos estan representados con █."
             "\n\tTu disparo esta representado con 'X'."
             "\n\n\tA   B   C   D   E   F   G   H   I   J\n      +-"
             "--+---+---+---+---+---+---+---+---+---+\n");
@@ -154,7 +154,7 @@ void main() {
               } else if (i == row && j == col) {
                 printf("X | ");
               } else {
-                printf("█ | ");
+                printf("  | ");
               }
             }
             printf(
@@ -268,7 +268,7 @@ void main() {
 
         if (board[row][col] == 1) {
           printf(
-            "\n\n\t\t\t¡TOCADO!\n\tLos barcos estan representados con █."
+            "\n\n\t\t\t¡TOCADO!"//\n\tLos barcos estan representados con █."
             "\n\tTu disparo esta representado con 'X'."
             "\n\n\tA   B   C   D   E   F   G   H   I   J\n      +-"
             "--+---+---+---+---+---+---+---+---+---+\n");
@@ -284,7 +284,7 @@ void main() {
               } else if (i == row && j == col) {
                 printf("X | ");
               } else {
-                printf("█ | ");
+                printf("  | ");
               }
             }
             printf(
@@ -405,7 +405,7 @@ void main() {
 
         if (board[row][col] == 1) {
           printf(
-            "\n\n\t\t\t¡TOCADO!\n\tLos barcos estan representados con █."
+            "\n\n\t\t\t¡TOCADO!"//\n\tLos barcos estan representados con █."
             "\n\tTu disparo esta representado con 'X'."
             "\n\n\tA   B   C   D   E   F   G   H   I   J\n      +-"
             "--+---+---+---+---+---+---+---+---+---+\n");
@@ -421,7 +421,7 @@ void main() {
               } else if (i == row && j == col) {
                 printf("X | ");
               } else {
-                printf("█ | ");
+                printf("  | ");
               }
             }
             printf(
